@@ -1,0 +1,27 @@
+.botonContenedor{
+    height: 63px;
+    flex: 1 1; /* Cuando se puede encoger o extender de acuerdo al espacio que tenga disponible de forma equitativa */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border:2px solid white;
+    margin: 4px;
+    user-select: none; /*No te deja seleccionar el texto del boton*/
+}
+.botonContenedor:hover{
+    background-color: #79AEF2;
+}
+
+.operador{
+background-color: #00471b;
+}
+
+.operador:hover{
+    background-color: #F2CE16;
+}
